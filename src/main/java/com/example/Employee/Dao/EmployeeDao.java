@@ -13,9 +13,9 @@ public class EmployeeDao {
 	
 	private SessionFactory sessionFactory;
 		
-		public void setSessionFactory(SessionFactory sf){
+		/*public void setSessionFactory(SessionFactory sf){
 			this.sessionFactory = sf;
-		}
+		}*/
 
 		
 		public void addEmployee(Employee e) {
